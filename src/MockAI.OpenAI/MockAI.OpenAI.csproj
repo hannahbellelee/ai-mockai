@@ -9,11 +9,35 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0"/>
-    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerGen" Version="6.4.0"/>
-    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerUI" Version="6.4.0"/>
+    <Compile Remove="Controllers\AssistantsApi.cs" />
+    <Compile Remove="Controllers\AudioApi.cs" />
+    <Compile Remove="Controllers\BatchApi.cs" />
+    <Compile Remove="Controllers\FilesApi.cs" />
+    <Compile Remove="Controllers\FineTuningApi.cs" />
+    <Compile Remove="Controllers\ImagesApi.cs" />
+    <Compile Remove="Controllers\ModelsApi.cs" />
+    <Compile Remove="Controllers\ModerationsApi.cs" />
+    <Compile Remove="Controllers\VectorStoresApi.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Controllers\AssistantsApi.cs" />
+    <Content Include="Controllers\AudioApi.cs" />
+    <Content Include="Controllers\BatchApi.cs" />
+    <Content Include="Controllers\FilesApi.cs" />
+    <Content Include="Controllers\FineTuningApi.cs" />
+    <Content Include="Controllers\ImagesApi.cs" />
+    <Content Include="Controllers\ModelsApi.cs" />
+    <Content Include="Controllers\ModerationsApi.cs" />
+    <Content Include="Controllers\VectorStoresApi.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerGen" Version="6.4.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerUI" Version="6.4.0" />
     <PackageReference Include="Swashbuckle.AspNetCore.Annotations" Version="6.4.0" />
-    <PackageReference Include="Swashbuckle.AspNetCore.Newtonsoft" Version="6.4.0"/>
+    <PackageReference Include="Swashbuckle.AspNetCore.Newtonsoft" Version="6.4.0" />
   </ItemGroup>
   <ItemGroup>
     <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.4" />
