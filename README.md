@@ -1,7 +1,6 @@
 # MockAI  
    
-**Description:**  
-MockAI is an open-source project designed to provide developers with a self-hosted service that simulates various AI OpenAPIs. This tool is essential for unit testing, allowing developers to ensure their applications are robust and error-free before deployment.  
+MockAI is an project designed to provide developers with a self-hosted service that simulates various AI OpenAPIs. This tool is essential for unit testing, allowing developers to ensure their applications are robust and error-free before deployment.  
    
 **Features:**  
 - Simulate popular AI OpenAPIs for seamless unit testing
@@ -13,8 +12,7 @@ In the fast-paced world of AI development, ensuring the reliability and accuracy
 
 ---  
    
-**描述：**  
-MockAI 是一个开源项目，旨在为开发者提供一个自主运行的服务，模拟各种AI开放的OpenAPI标准接口。这一工具对于单元测试至关重要，帮助开发者确保他们的应用程序在部署前是健壮且无错误的。  
+MockAI旨在为开发者提供一个自主运行的服务，模拟各种AI开放的OpenAPI标准接口。这一工具对于单元测试至关重要，帮助开发者确保他们的应用程序在部署前是健壮且无错误的。  
    
 **功能特点：**  
 - 模拟流行的AI OpenAPI接口，实现无缝的单元测试
